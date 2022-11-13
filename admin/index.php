@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/smart_cookie/bootstrap.min.css">
+  <link rel="stylesheet" href="custom.css" />
+  <title>Admin Login</title>
+</head>
+
+<body class="bg1">
+  <section class="login my-5 mx-5">
+    <div class="container py-5 text-white">
+      <div class="row no-gutters g-0">
+        <div class="col-lg-7 bg">
+          <div class="row">
+            <div class="col-lg-12 py-5 px-5">
+              <h1 class="pb-5">WELCOME TO KNOWLEDGE NEST</h1>
+              <h5>LET'S SEE WHAT IS WAITING FOR US BEHIND THIS PAGE</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 py-5 log">
+          <div class="row">
+            <div class="col-lg-9 text-center mx-auto">
+              <h1>ADMIN LOGIN</h1>
+              <p>Let's Check It Out</p>
+              <form class="pt-4" action="admin_login_action.php" method="post">
+                <div class="form-row py-2 px-4">
+                  <div class="col-lg-12">
+                    <input type="email" class="form-control" name="email" placeholder="User Id" required>
+                  </div>
+                </div>
+                <div class="form-row pt-4 px-4">
+                  <div class="col-lg-12">
+                    <input type="password" class="form-control" name="password" placeholder="********" required>
+                  </div>
+                </div>
+                <button type="submit" name="submit" id="submit" class="btn btn-warning mb-3 mt-4 restore">Login</button><br>
+                <a style="text-decoration:none" class="text-white" href="#forgot" data-bs-toggle="modal" role="button">Forgot Password?</a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--modal-->
+  <div class="modal fade" id="forgot" aria-hidden="true" aria-labelledby="password" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="password">Forgot Password <br>
+      <span class="h6">Enter Your Mobile Number To Reset Your Password</span></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div class="mb-3">
+  <label for="mobile" class="form-label">Mobile</label>
+  <input type="text" class="form-control" id="mobile" placeholder="Enter Mobile Number">
+</div>
+      </div>
+      <div class="modal-footer">
+      <a style="text-decoration:none" class="px-3" href="student_login.php">Back To Login Page</a>
+        <button class="btn btn-warning change" data-bs-target="#send" data-bs-toggle="modal" data-bs-dismiss="modal">Send OTP</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="send" aria-hidden="true" aria-labelledby="otp" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="otp">Enter Received OTP <br>
+          <span class="h6">Check Your Message For OTP</span>
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div class="mb-3">
+  <label for="otp" class="form-label">Enter OTP</label>
+  <input type="text" class="form-control" id="otp" placeholder="Enter Received OTP">
+</div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-warning change" data-bs-target="#create_password" data-bs-toggle="modal" data-bs-dismiss="modal">Verify OTP</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="create_password" aria-hidden="true" aria-labelledby="create" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="create">Create Password
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div class="mb-3">
+  <label for="new" class="form-label">New Password</label>
+  <input type="text" class="form-control" id="otp" placeholder="Enter New Password">
+</div>
+<div class="mb-3">
+  <label for="confirm" class="form-label">Confirm Password</label>
+  <input type="text" class="form-control" id="otp" placeholder="Confirm Your Password">
+</div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-warning change" data-bs-target="#" data-bs-toggle="modal" data-bs-dismiss="modal">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="/smart_cookie/popper.min.js"></script>
+  <script src="/smart_cookie/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

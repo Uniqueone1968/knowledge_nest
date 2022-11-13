@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav-link:hover{
+  color: white !important;
+  font-size: calc(22 / 1024 * 100vw);
+}
+.world {
+  background-image: url("register.jpg");
+  background-repeat: no-repeat;
+}
+
+.bg1 {
+  background-image: url("student.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bg2 {
+  background-image: url("login.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.log {
+  background: rgba(139, 139, 248, 0.774);
+}
+
+.log1 {
+  background: #ff7f50e0;
+}
+
+.restore {
+  color: white;
+  border-radius: 50px;
+  font-weight: 500;
+  width: 110px;
+}
+
+.restore:hover {
+  background: white;
+  border: 1px solid;
+  color: rgba(139, 139, 248, 0.774);
+}
+
+.change {
+  color: white;
+  border-radius: 50px;
+  font-weight: 500;
+  width: 110px;
+}
+
+.change:hover {
+  background: white;
+  border: 1px solid;
+  color: #ff7f50e0;
+}
+
+.a {
+  color: yellow;
+}
+
+.box {
+  border-radius: 50px;
+  border-color: #ff7f50e0 !important;
+}
+
+.b1 {
+  border-radius: 50px;
+  border-color: rgba(139, 139, 248, 0.774);
+}
+
+.bq {
+  color: white;
+  border-radius: 50px;
+  font-weight: 500;
+  width: 110px;
+}
+
+.bq:hover {
+  background: white;
+  border: 1px solid;
+  color: rgba(139, 139, 248, 0.774);
+}
+.sphere{
+  border-radius: 50px;
+}

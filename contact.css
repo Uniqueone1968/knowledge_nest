@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+i:hover {
+  color: white !important;
+  font-size: calc(22 / 1024 * 100vw);
+}
+
+.nav-link:hover {
+  color: white !important;
+  font-size: calc(22 / 1024 * 100vw);
+}
+
+.offcanvas {
+  background-color: #f3dfba !important;
+}
+
+.contain {
+  background-color: #f3dfba;
+}
+
+.dropdown-item:hover {
+  background: #E6CEA0 !important;
+  color: white !important;
+  font-size: calc(22 / 1024 * 100vw);
+}
+
+.btn {
+  border-radius: 50px !important;
+}
+
+.body{
+  background-color: #f3dfba !important;
+}
+
+.boy{
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 60px !important;
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+}
+.b{
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 60px !important;
+}
+
+.member {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}

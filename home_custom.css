@@ -1,0 +1,71 @@
+.dropdown-item:hover{
+background: #E6CEA0;
+color: white;
+font-size: calc(22 / 1024 * 100vw);
+}
+.nav-link:hover{
+    color: white !important;
+    font-size: calc(22 / 1024 * 100vw);
+}
+i:hover{
+    color: white !important;
+    font-size: calc(22 / 1024 * 100vw);
+  }
+.offcanvas{
+    background-color: #f3dfba;
+}
+.card-body{
+    background-color: #f3dfba;
+}
+.read{
+    border-radius: 50px;
+    font-weight: 400;
+}
+.read:hover{
+    color: black;
+    background: white;
+    border: 1px solid;
+}
+.main{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.685) !important;
+}
+.main:hover{
+    background: black;
+color: white !important;
+}
+.cat{
+    color: rgba(255, 255, 255, 0.685) !important;
+    background-color: black;
+}
+.astronomy{
+    background-image: url("space.jpg");
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.stream{
+    background-image: url("goal.jpg");
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.sports{
+    background-image: url("Sport\ balls.jpg");
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.books{
+    background-image: url("collection.jpg");
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.exams{
+    background-image: url("papers.jpg");
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.green{
+    color: rgb(245, 16, 16) !important;
+}
+.color{
+    color: rgb(248, 73, 73);
+}
